@@ -28,8 +28,8 @@ public class WeatherController {
     @GetMapping("/sobre")
     public Map<String, String> getSobre() {
         Map<String, String> sobre = new HashMap<>();
-        sobre.put("estudante", "Seu Nome");
-        sobre.put("projeto", "Serviço de Meteorologia");
+        sobre.put("estudante", "Gabriel Guzzatti");
+        sobre.put("projeto", "Serviço de Meteorologia (Avaliação 02 de Backend)");
         return sobre;
     }
 }
