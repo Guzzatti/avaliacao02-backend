@@ -30,14 +30,12 @@ Rotas
 1. GET /weather
 
 Descrição: Obtém os dados meteorológicos para uma cidade especificada.
-Parâmetros: city (query parameter, exemplo: ?city=São Paulo)
-Resposta:
+exemplo: http://localhost:8080/weather?city=CriciumaResposta:
 Status 200 OK:
 {
-"cidade": "São Paulo",
-"temperatura": 25,
-"descricao": "Céu limpo",
-"umidade": 60
+"city": "Criciuma",
+"temperature": 23.2,
+"description": "moderate rain"
 }
 
 2. POST /favorite-city
